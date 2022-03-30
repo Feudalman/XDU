@@ -1,0 +1,78 @@
+.master_data{
+    width: 100%;
+    height: 100%;
+}
+
+.master_data .main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .total_data{
+    width: 96%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .table_data{
+    width: 93.5%;
+    height: 72%;
+    position: relative;
+    top: 1%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .table_title{
+    width: 35%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main .table_title .textTitle{
+    font-size: 110%;
+    font-weight: 600;
+    font-family: SimHei;
+    letter-spacing: 0.1rem;
+    color: #c7a1ff;
+    position: relative;
+    top: 0.4rem;
+}
+
+.main .table_title .idTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 145%;
+    font-weight: 400;
+    color: #c7a1ff;
+    letter-spacing: 0.8rem;
+}
+
+.main .table{
+    width: 100%;
+    height: 85%;
+}
+
+.n-data-table .n-data-table-th {
+    height: 7vh;
+    background-color: rgb(217, 223, 247);
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.n-data-table .n-data-table-td{
+    text-align: center;
+    font-size: 110%;
+}

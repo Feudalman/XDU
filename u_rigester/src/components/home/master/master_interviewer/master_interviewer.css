@@ -1,0 +1,30 @@
+.container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .add_interviewer {
+    width: 92%;
+    height: 19%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .interviewers {
+    width: 92%;
+    height: 72%;
+    position: relative;
+    top: 1.5%;
+    overflow: auto;
+}
+
+.container .interviewers .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+}

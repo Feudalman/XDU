@@ -1,0 +1,54 @@
+.data_block{
+    width: 22.5%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data_block .data{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.data_block .data .left{
+    width: 70%;
+    height: 100%;
+}
+
+.data_block .data .left .title{
+    font-size: 90%;
+    font-weight: 550;
+}
+
+.data_block .data .left .number{
+    font-size: 180%;
+    font-weight: 700;
+    position: relative;
+    bottom: 0.4rem;
+}
+
+.data_block .data .left .time{
+    font-size: 80%;
+    position: relative;
+    bottom: 0.9rem;
+    color: rgb(158, 158, 158);
+}
+
+.data_block .data .right{
+    width: 30%;
+    height: 100%;
+}
+
+.data_block .data .right img{
+    width: 52.0%;
+    padding: 15%;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}

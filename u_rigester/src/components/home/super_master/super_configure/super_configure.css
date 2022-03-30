@@ -1,0 +1,58 @@
+#main_container {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 90%;
+    font-size: 20px;
+}
+
+.main .configure {
+    padding-top: 2%;
+    height: 15vh;
+    width: 97%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.main .club {
+    margin: 0;
+    margin-left: 3%;
+    width: 97%;
+    height: 75%;
+    padding-bottom: 1%;
+    overflow: auto;
+    position: relative;
+    top: 2%;
+}
+
+.main .club .div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+    box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(8, 8, 8, 0.4);
+}
