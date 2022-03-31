@@ -15,9 +15,11 @@
 <br/>
 
 ## 仓库说明
-本仓库库所有代码均为项目的前端代码。
+本仓库库所有代码均为项目的PC端前端代码。
 <br/>
-项目的后端代码的仓库地址：https://github.com/Ruikang-001/back-end-1
+项目还有以下仓库地址：
+<br/>
+[后端代码仓库](https://github.com/Ruikang-001/back-end-1)
 <br/>
 
 ## 技术栈
