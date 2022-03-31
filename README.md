@@ -19,12 +19,15 @@ http请求方式： GET
 authorizer/1/scenic-spot/1
 POST数据格式：JSON
 POST数据例子：
+(```)
 {
   "lat": "39.96554",
   "lng": "116.26719" //当前位置
 }
+(```)
 #### 返回结果
 json示例：
+(```)
 {
   "data":[
     {
@@ -56,7 +59,7 @@ json示例：
     }
   ]
 }
-
+(```)
 
 ## 作者列表
 蔡子瑞@Feudalman
