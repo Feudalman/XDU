@@ -23,9 +23,7 @@
 #### 接口调用请求说明
 ```
 http请求方式： GET
-<br/>
 authorizer/1/goods/1
-<br/>
 POST数据格式：JSON
 ```
 #### 参数说明
@@ -42,7 +40,6 @@ summary|商品介绍
 #### 接口调用请求说明
 ```
 http请求方式： GET
-<br/>
 authorizer/1/goods/banners
 ```
 #### 参数说明
@@ -54,9 +51,7 @@ banner|商品banner链接
 #### 接口调用请求说明
 ```
 http请求方式： GET
-<br/>
 authorizer/1/scenic-spot/1/nearby
-<br/>
 POST数据格式：JSON
 ```
 
