@@ -28,7 +28,9 @@
 <br/>
 项目还有以下仓库地址：
 <br/>
-[后端代码仓库](https://github.com/Ruikang-001/back-end-1)
+[PC后端代码仓库](https://github.com/Ruikang-001/back-end-1)
+<br/>
+[小程序代码仓库](https://github.com/HongMingfeng/LianXiaoxin-Xiaochengxu)
 <br/>
 
 ## 技术栈
