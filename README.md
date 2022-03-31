@@ -21,14 +21,13 @@
 ## API参考
 ### 商品信息接口
 #### 接口调用请求说明
+```
 http请求方式： GET
 <br/>
-```
 authorizer/1/goods/1
-```
 <br/>
 POST数据格式：JSON
-<br/>
+```
 #### 参数说明
 参数|说明
 -|:-:
@@ -41,16 +40,25 @@ summary|商品介绍
 
 ### 导航banners接口
 #### 接口调用请求说明
+```
 http请求方式： GET
 <br/>
-```
 authorizer/1/goods/banners
 ```
-<br/>
 #### 参数说明
 参数|说明
 -|:-:
 banner|商品banner链接
+
+### 商品列表接口
+#### 接口调用请求说明
+```
+http请求方式： GET
+<br/>
+authorizer/1/scenic-spot/1/nearby
+<br/>
+POST数据格式：JSON
+```
 
 ## 作者列表
 蔡子瑞@Feudalman
