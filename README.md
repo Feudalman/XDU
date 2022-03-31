@@ -20,59 +20,14 @@
 
 ## API参考
 ### 商品信息接口
-#### 接口调用请求说明
+接口调用请求说明
 http请求方式： GET
 <br/>
 authorizer/1/scenic-spot/1
 <br/>
 POST数据格式：JSON
 <br/>
-POST数据例子：
-<br/>
-(```)
-{
-  "lat": "39.96554",
-  "lng": "116.26719" //当前位置
-}
-(```)
-<br/>
-#### 返回结果
-json示例：
-<br/>
-(```)
-{
-  "data":[
-    {
-      "id": "1",
-      "name": "冰糖西瓜惊爆价冰糖西瓜惊爆价冰糖西瓜惊爆价"，
-      "image"："/static/img/anonymous.png",
-      "code": "01",
-      "distance": “280”，
-      "created_at": "2022-02-20"
-    },
-    {
-      "id": "2",
-      "name": "老鼠干大甩卖老鼠干大甩卖老鼠干大甩卖",
-      "image"："/static/img/anonymous.png",
-      "code": "02",
-      "distance": “280”，
-      "created_at": "2016-09-20"
-    }
-  ],
-  "summary": "懒得写了",
-  "breadcrumb":[
-    {
-        "title": "康康"，
-        "link": "/goods/1"
-    },
-    {
-        "title": "菜菜"，
-        "link": "/goods/2"
-    }
-  ]
-}
-(```)
-<br/>
+
 
 ## 作者列表
 蔡子瑞@Feudalman
