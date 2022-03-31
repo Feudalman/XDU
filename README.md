@@ -20,6 +20,12 @@
 项目的后端代码的仓库地址：https://github.com/Ruikang-001/back-end-1
 <br/>
 
+## 技术栈
+前端：Vue+Element-ui
+<br/> 
+Java后端：SpringBoot + Thymeleaf + WebSocket + Spring Security + SpringData-Jpa + MySql
+<br/> 
+
 ## API参考
 ### 商品信息接口
 #### 接口调用请求说明
