@@ -20,14 +20,33 @@
 
 ## API参考
 ### 商品信息接口
-接口调用请求说明
+#### 接口调用请求说明
 http请求方式： GET
 <br/>
-authorizer/1/scenic-spot/1
+authorizer/1/goods/1
 <br/>
 POST数据格式：JSON
 <br/>
+#### 参数说明
+参数|说明
+-|:-:
+id|商品ID
+name|商品名称
+image|商品缩略图
+code|商品编码
+created_at|创建时间
+summary|商品介绍
 
+### 导航banners接口
+#### 接口调用请求说明
+http请求方式： GET
+<br/>
+authorizer/1/goods/banners
+<br/>
+#### 参数说明
+参数|说明
+-|:-:
+banner|商品banner链接
 
 ## 作者列表
 蔡子瑞@Feudalman
