@@ -17,6 +17,9 @@
 ## 仓库说明
 本仓库库所有代码均为项目的PC端前端代码。
 <br/>
+本仓库产品演示：
+[产品演示视频](https://clipchamp.com/watch/qfUBvSJJ4Vv)
+<br/>
 项目还有以下仓库地址：
 <br/>
 [后端代码仓库](https://github.com/Ruikang-001/back-end-1)
